@@ -6,8 +6,11 @@ html, body {
 canvas {
     padding-left: 0;
     padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
+    position: fixed;
     display: block;
+    left: 50%;
+    top: 50%;
+    transform: transform: translate(-50%, -50%);
     width: 480px;
+    height: 480px;
 }
