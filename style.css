@@ -8,9 +8,8 @@ canvas {
     padding-right: 0;
     position: fixed;
     display: block;
-    left: 50%;
-    top: 50%;
-    transform: transform: translate(-50%, -50%);
+    left: calc(50vw - 240px);
+    top: calc(50vh - 240px);
     width: 480px;
     height: 480px;
 }
